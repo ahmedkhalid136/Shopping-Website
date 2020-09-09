@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+}
+/* Title Section */
+.Name{
+  padding-top: 1%;
+  background-color: #fff;
+  text-align: center;
+}
+/* Category Section */
+#categories{
+  padding: 1.5% 0;
+  text-align: center;
+}
+
+.Men{
+  padding:20% 0;
+  background-image: url("/images/pic1.jpeg");
+  background-position: top center;
+  background-repeat: no-repeat;
+
+}
+.Women{
+  background-image: url("https://cdn.shopify.com/s/files/1/2311/5649/products/12-_-u_20s_-_-_3509_2048x.jpg?v=1592485638");
+  padding: 20% 0;
+  background-position:top center;
+  background-repeat: no-repeat;
+}
+.Kids{
+  padding:20% 0;
+  background-image: url("https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/117309611_628343038082902_218793794520630179_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_ohc=YedNvFliEqYAX99IvRM&_nc_ht=scontent-frx5-1.cdninstagram.com&oh=7c9c0ce65c5bfcfa5bb35ff0e5e86ece&oe=5F61A2AE");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
