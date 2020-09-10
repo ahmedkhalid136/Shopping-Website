@@ -1,34 +1,85 @@
 body{
   margin: 0;
+  text-align: center;
 }
 /* Title Section */
 .Name{
   padding-top: 1%;
-  background-color: #fff;
   text-align: center;
+  font-family: 'Kufam', cursive;
 }
+
 /* Category Section */
+
 #categories{
-  padding: 1.5% 0;
+  padding: 1% 0;
   text-align: center;
 }
 
 .Men{
   padding:20% 0;
-  background-image: url("/images/pic1.jpeg");
+  background-image: url('../images/pic1.jpg');
   background-position: top center;
+  background-size: 870px auto;
   background-repeat: no-repeat;
+  color: white;
+  font-size: 2.5rem;
+  
 
 }
+
 .Women{
   background-image: url("https://cdn.shopify.com/s/files/1/2311/5649/products/12-_-u_20s_-_-_3509_2048x.jpg?v=1592485638");
   padding: 20% 0;
-  background-position:top center;
+  background-position: top center ;
+  background-size: 734px auto;
   background-repeat: no-repeat;
+  color: white;
+  font-size: 2.5rem;
 }
 .Kids{
-  padding:20% 0;
-  background-image: url("https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/117309611_628343038082902_218793794520630179_n.jpg?_nc_cat=105&_nc_sid=8ae9d6&_nc_ohc=YedNvFliEqYAX99IvRM&_nc_ht=scontent-frx5-1.cdninstagram.com&oh=7c9c0ce65c5bfcfa5bb35ff0e5e86ece&oe=5F61A2AE");
+  padding: 20% 0;
+  background-image: url('../images/kids.png');
   background-position: center top;
+  background-size: 1013.5px auto ;
   background-repeat: no-repeat;
+  color: white;
+  font-size: 2.5rem;
 }
+
+
+/* bottom-section */
+
+#social{
+  color: #484848;
+  text-align: center;
+  font-size: 1rem;
+  
+
+}
+p{
+  line-height: 4;
+}
+.icons{
+  margin-bottom: 10px;
+}
+
+.fb-icon{
+  padding-right: 2em; 
+}
+.bottom-container{
+   
+    background-color: #66bfbf;
+    padding: 1px 1px;
+    
+}
+
+.copyright-msg{
+  font-size: 0.75rem;
+  color: white;
+}
+  
+
+
+  
+  
