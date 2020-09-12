@@ -16,35 +16,56 @@ body{
   text-align: center;
 }
 
+/* Men category design */
 .Men{
-  padding:20% 0;
+  height: 900px;
+  background-color: red;
   background-image: url('../images/pic1.jpg');
   background-position: top center;
-  background-size: 870px auto;
   background-repeat: no-repeat;
-  color: white;
-  font-size: 2.5rem;
   
-
 }
-
-.Women{
-  background-image: url("https://cdn.shopify.com/s/files/1/2311/5649/products/12-_-u_20s_-_-_3509_2048x.jpg?v=1592485638");
-  padding: 20% 0;
-  background-position: top center ;
-  background-size: 734px auto;
-  background-repeat: no-repeat;
+/* Men text styling */
+.men-text{
+  padding-top: 0;
+  background-color: red;
+  margin-top : 0;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
+
+/* Women category design */
+.Women{
+  height: 900px;
+  background-image: url("https://cdn.shopify.com/s/files/1/2311/5649/products/12-_-u_20s_-_-_3509_2048x.jpg?v=1592485638");
+  background-position: top center ;
+  background-repeat: no-repeat;
+  
+}
+/* Women text styling */
+.women-text{
+  background-color: red;
+  margin-top: 700px;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Kids category design */
 .Kids{
-  padding: 20% 0;
+  height: 900px;
   background-image: url('../images/kids.png');
   background-position: center top;
   background-size: 1013.5px auto ;
   background-repeat: no-repeat;
+  
+}
+/* Kids text styling */
+.kids-text{
+  background-color: red;
+  margin-top: 700px;
+  
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 
@@ -79,6 +100,11 @@ p{
   color: white;
 }
   
+
+
+  
+  
+
 
 
   
