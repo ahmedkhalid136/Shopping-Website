@@ -1,0 +1,19 @@
+body{
+  margin:0;
+}
+.container-fluid{
+  background-color: grey;
+  padding: 0 5% 5% 10% ;
+}
+
+.banner-left{
+  background-color: red;
+  color:white;
+  text-align: center;
+  height: 600px;
+  width:600px;
+}
+.banner-right{
+  padding: 20% 0;
+  text-align: center;
+}
