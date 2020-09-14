@@ -1,21 +1,39 @@
 <!DOCTYPE html>
+
 <head>
-    <title>Men</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap" rel="stylesheet">
+  <title>Men</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/men.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:ital@1&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    
-    <div class="Name" onclick="window.open('index.html','_self')" style="margin-top: 0;">
-        <h1 style="cursor: pointer;"><strong>Shoppy</strong></h1>
-    </div>
+  <div class="Name" onclick="window.open('index.html','_self')" style="margin-top: 0; text-align:center;">
+    <h1 style="cursor: pointer"><strong>Shoppy</strong></h1>
+  </div>
 
-    <!-- Sale banner and its products -->
-    <section id="sale">
-        <div class="saleBanner" style="background-color: white;margin-top: 2%; height: 900px; margin-right: 0;">
+  <!-- Sale banner and its products -->
+  <section id="sale">
+    <div class="saleBanner container-fluid">
+      <div class="row">
+        <div style="padding:0 3% 0" class="col-lg-6">
+          <div class="banner-left">
+            <h1>Shoppy</h1><br>
+            <span style="color:#000; font-weight:900; display:block; font-size:3rem;">END OF SEASON</span>
+            <span style="display:block; letter-spacing:40  px; font-size:5rem">SALE</span>
+          </div>
         </div>
+        <div style="padding:1% 0 0;" class="col-lg-6">
+          <div class="banner-right">
+            <h1>________________Upto_______________</h1>
+            <h1 style="font-size:10rem;">50% OFF</h1>
+            <hr style="color:black; border:1.5px solid;">
+            <h1>SELECTED & LIMITED STOCK</h1>
+          </div>
 
-    </section>
-    
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
