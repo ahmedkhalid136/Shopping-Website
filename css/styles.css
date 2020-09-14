@@ -1,6 +1,7 @@
 body{
   margin: 0;
   text-align: center;
+  padding: 0;
 }
 /* Title Section */
 .Name{
@@ -18,51 +19,55 @@ body{
 
 /* Men category design */
 .Men{
-  height: 900px;
-  background-color: red;
   background-image: url('../images/pic1.jpg');
+  height: 700px;
+  padding: 0;
+  display: inline-block;
   background-position: top center;
   background-repeat: no-repeat;
-  
+  cursor: pointer;
 }
+
+
 /* Men text styling */
 .men-text{
-  padding-top: 0;
-  background-color: red;
+  background-color: #cd0a0a;
   margin-top : 0;
   color: white;
   font-size: 2rem;
+  
 }
 
 /* Women category design */
 .Women{
-  height: 900px;
+  padding: 0%;
+  height: 700px;
   background-image: url("https://cdn.shopify.com/s/files/1/2311/5649/products/12-_-u_20s_-_-_3509_2048x.jpg?v=1592485638");
   background-position: top center ;
   background-repeat: no-repeat;
-  
+  cursor: pointer;
 }
 /* Women text styling */
 .women-text{
-  background-color: red;
-  margin-top: 700px;
+  background-color: #cd0a0a;
   color: white;
   font-size: 2rem;
 }
 
 /* Kids category design */
 .Kids{
-  height: 900px;
-  background-image: url('../images/kids.png');
+  padding: 0%;
+  height: 700px;
+  background-image: url('../images/kids.png') ;
   background-position: center top;
-  background-size: 1013.5px auto ;
+  background-size: 1013.5px;
   background-repeat: no-repeat;
+  cursor: pointer;
   
 }
 /* Kids text styling */
 .kids-text{
-  background-color: red;
-  margin-top: 700px;
+  background-color: #cd0a0a;
   
   color: white;
   font-size: 2rem;
@@ -83,10 +88,14 @@ p{
 }
 .icons{
   margin-bottom: 10px;
+  
+}
+.icons:hover{
+  color: gray;
 }
 
 .fb-icon{
-  padding-right: 2em; 
+  margin-right: 20px;
 }
 .bottom-container{
    
@@ -96,16 +105,13 @@ p{
 }
 
 .copyright-msg{
-  font-size: 0.75rem;
+  font-size: 0.50rem;
   color: white;
 }
-  
 
-
-  
-  
-
-
-
-  
-  
+/* Men categories page */
+.saleBanner{
+  background-image: url("../images/SaleBanner3ps.png");
+  background-repeat: no-repeat; 
+}
+ 
